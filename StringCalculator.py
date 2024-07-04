@@ -1,4 +1,4 @@
 
 def add(number):
     if number == "":
-      return -1
+      return 0
