@@ -8,7 +8,7 @@ class TestStringCalculator(unittest.TestCase):
         def test_expectZeroForSingleZero(self):
                 self.assertEqual(add("0"), 0)
                 
-        def expectSumForTwoNumberst(self):
+        def test_expectSumForTwoNumberst(self):
                 self.assertEqual(add("1,2"), 3)
                 
         # def ignoreNumbersGreaterThan1000(self):
